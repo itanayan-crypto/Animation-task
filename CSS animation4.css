@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(1, 109, 1);
+    border-radius: 50%;
+    position: relative;
+    position: absolute;
+   
+}
+
+.contain {
+    background-image: conic-gradient(black 0deg 90deg,
+            green 90deg 180deg,
+            black 180deg 270deg,
+            green 270deg 360deg);
+             animation: animate 10s linear infinite;
+            animation-delay: 5s;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    
+
+}
+
+.contain1 {
+    background-image: conic-gradient(black 0deg 90deg,
+            green 90deg 180deg,
+            black 180deg 270deg,
+            green 270deg 360deg);
+             animation: animate 13s linear infinite reverse;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: absolute;
+   
+
+}
+
+.contain2 {
+   background-image: conic-gradient(black 0deg 90deg,
+            green 90deg 180deg,
+            black 180deg 270deg,
+            green 270deg 360deg);
+             animation: animate 8s linear infinite ;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+
+
+}
+
+.contain3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url(k/Four\ arms.png);
+    background-position: center;
+}
+
+@keyframes animate{
+    from{
+        rotate: 0deg;
+    }
+    to{
+         rotate: 360deg;
+    }
+}

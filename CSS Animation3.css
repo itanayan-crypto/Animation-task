@@ -31,10 +31,10 @@ img:hover{
 }
 @keyframes amimate {
     0%{
-        transform: perspective(1000px) rotateY(0deg) ;
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg) rotateX(16deg) ;
     }
     100%{
-        transform: perspective(1000px) rotateY(360deg) ;
+        transform: perspective(1000px) rotateX(16deg)  rotateY(360deg) rotateX(-16deg);
     }
 }
 .container span{
